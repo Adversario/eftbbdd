@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="808C8AAA-294D-471D-6179-BB78B57CDAA4" name="Academia">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>D0C2A182-5B87-A4E3-6DDA-8802185F0D69</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_academia" id="BD3025E2-FCA3-8601-C93B-DE81D80FFC91">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>F95AE62C-E0E5-501E-2268-0A33D510400A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>220D7E73-7E20-520D-DE0C-8CCA0C38829E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="14E75431-CCA2-6009-1621-401BA7E1A43E">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>E3CA31B8-5B9C-F524-1F49-756B28854094</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>226FE99A-C0BE-EF58-2F28-91638A008B78</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="FA8493E4-5519-0A33-0BC0-AA5B8FBB8240">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>1ECA8FF2-8371-D1CE-9232-3A18A69C27B8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B117958F-5C51-B879-68A5-DCD43A30AFA3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC31AD7F-CB4D-8CFD-3A18-BD8C31B9931E" name="Academia_PK">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>451A7723-9F9E-6CF3-76C4-D68DF1FF74DA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD3025E2-FCA3-8601-C93B-DE81D80FFC91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

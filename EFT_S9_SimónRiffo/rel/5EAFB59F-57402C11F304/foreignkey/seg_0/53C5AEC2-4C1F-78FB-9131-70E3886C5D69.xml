@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53C5AEC2-4C1F-78FB-9131-70E3886C5D69" containerWithKeyObject="9A8C2B70-3C02-38E7-DB00-2D6E387A195F" localFKIndex="D3A3B7C9-8961-C96B-7C4F-72DF4ED2B37A" name="fk_academia_curso">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>FD5EB0B3-2FE4-1ED8-798F-8A9A8283A4BF</importedID>
+<referredTableLongName>Academia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>808C8AAA-294D-471D-6179-BB78B57CDAA4</referredTableID>
+<keyObject>DC31AD7F-CB4D-8CFD-3A18-BD8C31B9931E</keyObject>
+<referredKeyID>DC31AD7F-CB4D-8CFD-3A18-BD8C31B9931E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_academia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

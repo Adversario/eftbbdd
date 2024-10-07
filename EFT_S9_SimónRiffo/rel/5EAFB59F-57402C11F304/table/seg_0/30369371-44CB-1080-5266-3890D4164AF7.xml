@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30369371-44CB-1080-5266-3890D4164AF7" name="Profesor">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>A1E05D33-4F9B-8F77-3BD0-5308F247CCF0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_profesor" id="4CA57922-5D70-DC2F-B21A-10C15E469853">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>B1505AF6-44E0-DC99-A0F6-0D46A186A2D9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>220D7E73-7E20-520D-DE0C-8CCA0C38829E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C8252934-2282-77B9-E469-DA0A399F67C1">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>E9EDD80E-5DB3-5F6C-7319-5F811899298B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>226FE99A-C0BE-EF58-2F28-91638A008B78</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_contrato" id="14707966-976A-2AEE-619F-7A7DC3286AF6">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>567740F6-C48E-9AF5-236A-2CAA39C5F73B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B117958F-5C51-B879-68A5-DCD43A30AFA3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_academia" id="ADC272C6-C0DF-19C0-E806-14AC23F8FE71">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>518B9255-2F33-797B-724B-84EF2A315D6C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>220D7E73-7E20-520D-DE0C-8CCA0C38829E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="942C782A-CF4F-B9B8-5713-E44B9E9E76B1" referredColumn="BD3025E2-FCA3-8601-C93B-DE81D80FFC91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0B638CB-9BAD-C678-E5E9-026A37FAC6D1" name="Profesor_PK">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>5C6D996E-DEDD-6FF5-B131-A4CAF671BC65</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CA57922-5D70-DC2F-B21A-10C15E469853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A91E5163-4DD1-C404-AEF0-F6ED58FCE135" name="fk_academia_profesor">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADC272C6-C0DF-19C0-E806-14AC23F8FE71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

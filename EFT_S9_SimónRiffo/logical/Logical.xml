@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C9590E97-98D5-4FA9-099C-4D90B8E15EBD" mainViewID="08994356-8FDA-390B-DF52-D5F1BDA1FC0F">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-05 21:36:22 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

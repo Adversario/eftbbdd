@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Municipalidad" directorySegmentName="seg_0" id="1745FC54-8AF2-35A1-393B-9211C1357461">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_municipalidad" id="24F9388C-FC84-E575-39EF-A31E3B44729F">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="CB9A9D83-73DB-4DC1-AFAE-F1CB6D17A86A">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Municipalidad_PK" id="9FFC95AD-D402-F50B-BE72-7B508DDABF7A">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

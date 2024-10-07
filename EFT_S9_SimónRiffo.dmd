@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EFT_S9_SimónRiffo" id="686F8551-0797-4D7D-214B-4FBB54D23D2B" version="3.5">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-05 21:36:22 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>686F8551-0797-4D7D-214B-4FBB54D23D2B</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F74BA12F-B10E-2829-8187-2658649C4DCD">
+<designStoragePath>C:\EFT Script</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CD8646E4-F385-A202-1635-1871A71CE165">
+<designStoragePath>C:\EFT Script</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

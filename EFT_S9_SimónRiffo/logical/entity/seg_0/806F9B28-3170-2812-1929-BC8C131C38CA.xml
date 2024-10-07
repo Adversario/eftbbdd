@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="806F9B28-3170-2812-1929-BC8C131C38CA" name="Municipalidad">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:35:13 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_municipalidad" id="D045BA0F-E772-876A-1916-3C440934896A">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:35:19 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1660B398-563A-7112-BC22-A4625F98427A">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:35:31 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="581DE043-D779-647F-64C2-BD8AD7AFCB4F" name="Municipalidad PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:35:29 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D045BA0F-E772-876A-1916-3C440934896A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

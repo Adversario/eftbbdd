@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1745FC54-8AF2-35A1-393B-9211C1357461" name="Municipalidad">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>A53897F5-1A4A-06A5-5F4E-A61B16CCD3B5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_municipalidad" id="24F9388C-FC84-E575-39EF-A31E3B44729F">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>756AA8A6-DB05-49D4-BE47-30F326B89947</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>220D7E73-7E20-520D-DE0C-8CCA0C38829E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="CB9A9D83-73DB-4DC1-AFAE-F1CB6D17A86A">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>AF708CF1-A9E3-8F90-FF8D-2744ADAFF829</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>226FE99A-C0BE-EF58-2F28-91638A008B78</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FFC95AD-D402-F50B-BE72-7B508DDABF7A" name="Municipalidad_PK">
+<sourceDDLFile>EFT Script.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:46:43 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<importedID>FD47CE6E-C953-F600-BBE2-2B6BD4DE39E4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24F9388C-FC84-E575-39EF-A31E3B44729F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

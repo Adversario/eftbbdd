@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="042DF387-CD48-8C71-1D7A-EBD8BE157D2D" name="Profesor">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:32:57 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_profesor" id="91FB0B79-254C-9993-FE6C-0593D12C579C">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:33:03 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="EA3B9EEF-DD4F-87F1-90FC-EBC081EC9A91">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:33:04 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_contrato" id="383F1C93-74E0-57B2-1592-7DF8319084F6">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:33:04 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_academia" id="D11F72DC-D36D-F866-C59A-3C0470D4B74E">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:38:34 UTC</createdTime>
+<generatorID>2EEC51E8-E949-E1D6-E976-BACB9411DE60</generatorID>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<referedAttribute>A063EAB1-82F0-041C-B716-26ECCF3C0CC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BA66465-E00C-88F6-7A3E-4070BC449865" name="Profesor PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-10-06 23:33:09 UTC</createdTime>
+<ownerDesignName>EFT_S9_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="5EAFB59F-19AA-C247-D616-57402C11F304" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91FB0B79-254C-9993-FE6C-0593D12C579C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
